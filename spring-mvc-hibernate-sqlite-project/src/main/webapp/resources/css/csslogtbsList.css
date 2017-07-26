@@ -1,0 +1,38 @@
+
+body {
+	background-color: #e6e6ff; 
+}
+
+.table{
+	border-spacing: 0;
+	border-color: #333399;
+	border-style: solid;
+	border-width: 1px;
+	border-style: solid;
+}
+
+/* Table Headers Details*/
+thead {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	border-color: #8b7d6b;
+	color: #400000;
+	background-color:#f1f0ef;
+}
+
+
+/*Add Button Details*/
+.addbutton {
+display: block;
+width: 100px;
+height: 25px;
+background: #4E9CAF;
+padding: 5px;
+text-align: center;
+border-radius: 3px;
+color: white;
+font-weight: bold;
+}
+
+

@@ -1,0 +1,46 @@
+body {
+	background-color: #e6e6ff; 
+}
+
+
+/*Details for New Log addition Forms*/
+.form-inline {
+	position: center;
+}
+
+.form-group {
+	width: 35%;
+	float: center;
+	padding-left: 5%;
+	padding-right: 10%;
+}
+
+#table-wrapper {
+	position: relative;
+}
+
+#table-scroll {
+	height: 150px;
+	overflow: auto;
+	margin-top: 05px;
+}
+
+#table-wrapper table {
+	width: 100%;
+}
+
+#table-wrapper table * {
+	color: black;
+}
+
+#table-wrapper table thead th .text {
+	position: absolute;
+	z-index: 3;
+	height: 50px;
+	width: 35%;
+	border: 1px solid red;
+}
+
+.error {
+        color: red; font-weight: bold;
+    }
