@@ -1,8 +1,9 @@
-package com.nitendragautam.bankingapp.dao;
+package com.nitendratech.bankingapp.dao;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.nitendratech.bankingapp.model.BankAccount;
 import org.hibernate.Criteria;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
@@ -14,8 +15,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
-
-import com.nitendragautam.bankingapp.model.BankAccount;
 
 /*
  * Implementation of the BankAccountDAO class

@@ -1,10 +1,11 @@
-package com.nitendragautam.bankingapp.config;
+package com.nitendratech.bankingapp.config;
 
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 import javax.sql.DataSource;
 
+import com.nitendratech.bankingapp.model.BankAccount;
+import com.nitendratech.bankingapp.service.BankAccountService;
 import org.apache.commons.dbcp.BasicDataSource;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,11 +22,9 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
-import com.nitendragautam.bankingapp.dao.BankAccountDAO;
-import com.nitendragautam.bankingapp.dao.BankAccountDAOImpl;
-import com.nitendragautam.bankingapp.model.BankAccount;
-import com.nitendragautam.bankingapp.service.BankAccountService;
-import com.nitendragautam.bankingapp.service.BankAccountServiceImpl;
+import com.nitendratech.bankingapp.dao.BankAccountDAO;
+import com.nitendratech.bankingapp.dao.BankAccountDAOImpl;
+import com.nitendratech.bankingapp.service.BankAccountServiceImpl;
 
 /*
  * Configuration Class for Spring beans
@@ -35,7 +34,7 @@ import com.nitendragautam.bankingapp.service.BankAccountServiceImpl;
 @Configuration
 @EnableWebMvc
 @EnableTransactionManagement
-@ComponentScan(basePackages = "com.nitendragautam.bankingapp")
+@ComponentScan(basePackages = "com.nitendratech.bankingapp")
 public class ApplicationContextConfig extends WebMvcConfigurerAdapter{
 	
 	
@@ -63,7 +62,7 @@ public class ApplicationContextConfig extends WebMvcConfigurerAdapter{
 	 public DataSource getDataSource() {
 	     BasicDataSource dataSource = new BasicDataSource();
 	     dataSource.setDriverClassName("org.sqlite.JDBC");
-	     dataSource.setUrl("jdbc:sqlite:D:/App/BankingApp/bankdb.sqlite");
+	     dataSource.setUrl("jdbc:sqlite:/Users/nitendragautam/apps/bankdb.sqlite");
 	     dataSource.setMaxActive(100);
 	     dataSource.setMinIdle(10);
 	     dataSource.setInitialSize(10);

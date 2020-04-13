@@ -1,4 +1,4 @@
-package com.nitendragautam.bankingapp.model;
+package com.nitendratech.bankingapp.model;
 
 
 import java.io.Serializable;

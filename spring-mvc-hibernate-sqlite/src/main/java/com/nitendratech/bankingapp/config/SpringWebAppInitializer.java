@@ -1,4 +1,4 @@
-package com.nitendragautam.bankingapp.config;
+package com.nitendratech.bankingapp.config;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

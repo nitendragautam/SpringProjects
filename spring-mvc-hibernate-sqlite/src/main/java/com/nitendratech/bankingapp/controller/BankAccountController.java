@@ -1,4 +1,4 @@
-package com.nitendragautam.bankingapp.controller;
+package com.nitendratech.bankingapp.controller;
 
 import java.util.Collections;
 import java.util.List;
@@ -22,8 +22,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.nitendragautam.bankingapp.model.BankAccount;
-import com.nitendragautam.bankingapp.service.BankAccountService;
+import com.nitendratech.bankingapp.model.BankAccount;
+import com.nitendratech.bankingapp.service.BankAccountService;
 
 @Controller
 public class BankAccountController {

@@ -1,8 +1,8 @@
-package com.nitendragautam.bankingapp.service;
+package com.nitendratech.bankingapp.service;
 
 import java.util.List;
 
-import com.nitendragautam.bankingapp.model.BankAccount;
+import com.nitendratech.bankingapp.model.BankAccount;
 
 public interface BankAccountService {
 

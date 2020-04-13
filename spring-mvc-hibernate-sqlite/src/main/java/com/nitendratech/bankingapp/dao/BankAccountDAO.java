@@ -1,8 +1,9 @@
-package com.nitendragautam.bankingapp.dao;
+package com.nitendratech.bankingapp.dao;
 
 import java.util.List;
 
-import com.nitendragautam.bankingapp.model.BankAccount;
+import com.nitendratech.bankingapp.model.BankAccount;
+
 /**
  * Interface for Bank Account DAO
  * @author nitendra
