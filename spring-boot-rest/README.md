@@ -4,13 +4,13 @@
 
 (b) Navigate to the root of the project directory and type
 
-mvn sprint-boot:run
+mvn spring-boot:run
 
 
 It will start the application at port 8199
 
 
-URL
+URL: `http://localhost:8199`
 
 Display all the record 
 
@@ -28,22 +28,22 @@ curl http://localhost:8199/app/records
 
 
 
-Display the particular records 
+## Display the particular records 
 
-
+```bash
 curl http://localhost:8199/app/records/1
+```
 
-
-
+```
 http://localhost:8199/app/records/1
-
+```
 
 {"id":1,"loginId":"ngaut","firstName":"Nitendra","lastName":"Gautam","currentAddress":"Dallas"}
 
 
-
+```
 http://localhost:8199/app/records/2
-
+```
 
 
 
