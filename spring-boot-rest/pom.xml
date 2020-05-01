@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.nitendragautam</groupId>
-	<artifactId>spring-boot-jersey-maven</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>spring-boot-rest</artifactId>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>spring-boot-jersey-maven</name>
+	<name>spring-boot-rest</name>
 
 
 	<parent>
